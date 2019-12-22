@@ -1,6 +1,6 @@
 allMasses = []
 
-def calculateFuel() :
+def calculateFuel():
     totalFuel = 0
     fd = open('./Day1Input.txt','r')
     for data in fd :

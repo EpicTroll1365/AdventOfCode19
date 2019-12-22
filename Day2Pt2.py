@@ -1,10 +1,10 @@
-def findInputs() :
+def findInputs():
     for noun in range(0,101) :
         for verb in range(0,101) :
             if (opcodeExecute(noun,verb) == 19690720) :
                 return 100 * noun + verb
 
-def opcodeExecute(noun,verb) :
+def opcodeExecute(noun,verb):
     fd = open('Day2Input.txt', 'r')
     opcodes = fd.readline().split(',')
     opcodes = [int(i) for i in opcodes]

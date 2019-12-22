@@ -1,4 +1,4 @@
-def opcodeExecute() :
+def opcodeExecute():
     fd = open('Day2Input.txt', 'r')
     opcodes = fd.readline().split(',')
     opcodes = [int(i) for i in opcodes]
